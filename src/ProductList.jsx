@@ -15,6 +15,7 @@ const ProductList = () => {
     { name: "Milk", price: 60, category: "Groceries" },
   ];
 
+  
   const [selectedCategory, setSelectedCategory] = useState("All");
 
   const handleCategoryChange = (event) => {
